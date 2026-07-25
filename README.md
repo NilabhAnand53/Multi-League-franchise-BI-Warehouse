@@ -63,10 +63,30 @@ Over 45 DAX measures across the six fact tables: base totals, percent-of-total b
 ## Repository layout
 
 ```
-Multi_League_Franchise_BI_Warehouse.pbix
-data/            source Excel files, 4 dimension + 6 fact tables
-screenshots/     dashboard page previews (coming shortly)
-README.md
+Multi-League-franchise-BI-Warehouse/
+├── LICENSE
+├── League-Franchise-BI.pbix
+├── README.md
+├── Dimension Tables/
+│   ├── franchise_dim.xlsx
+│   ├── league_season_dim.xlsx
+│   ├── leagues_dim.xlsx
+│   └── stadium_dim.xlsx
+├── Fact Tables/
+│   ├── broadcast_fact.xlsx
+│   ├── merchandise_fact.xlsx
+│   ├── revenue_fact.xlsx
+│   ├── social_media_fact.xlsx
+│   ├── sponsorship_fact.xlsx
+│   └── updated_attendance_fact.xlsx
+└── Screenshots/
+    ├── 01_revenue.png
+    ├── 02_sponsorship.png
+    ├── 03_broadcast.png
+    ├── 04_merchandise.png
+    ├── 05_attendance.png
+    ├── 06_social_media.png
+    └── 07_cross_fact.png
 ```
 
 ## Project status
